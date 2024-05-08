@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="db_toko_pbd_if21dxDataSet7" targetNamespace="http://tempuri.org/db_toko_pbd_if21dxDataSet7.xsd" xmlns:mstns="http://tempuri.org/db_toko_pbd_if21dxDataSet7.xsd" xmlns="http://tempuri.org/db_toko_pbd_if21dxDataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="db_toko_pbd_if21dxConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_toko_pbd_if21dxConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PAplikasi_PBD_21DX.My.MySettings.GlobalReference.Default.db_toko_pbd_if21dxConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="alfian_penjualanTableAdapter" GeneratorDataComponentClassName="alfian_penjualanTableAdapter" Name="alfian_penjualan" UserDataComponentName="alfian_penjualanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_toko_pbd_if21dxConnectionString (MySettings)" DbObjectName="db_toko_pbd_if21dx.dbo.alfian_penjualan" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT alfian_tgl, alfian_subtotal FROM dbo.alfian_penjualan</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="alfian_tgl" DataSetColumn="alfian_tgl" />
+              <Mapping SourceColumn="alfian_subtotal" DataSetColumn="alfian_subtotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="db_toko_pbd_if21dxDataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="db_toko_pbd_if21dxDataSet7" msprop:Generator_UserDSName="db_toko_pbd_if21dxDataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="alfian_penjualan" msprop:Generator_TableClassName="alfian_penjualanDataTable" msprop:Generator_TableVarName="tablealfian_penjualan" msprop:Generator_TablePropName="alfian_penjualan" msprop:Generator_RowDeletingName="alfian_penjualanRowDeleting" msprop:Generator_RowChangingName="alfian_penjualanRowChanging" msprop:Generator_RowEvHandlerName="alfian_penjualanRowChangeEventHandler" msprop:Generator_RowDeletedName="alfian_penjualanRowDeleted" msprop:Generator_UserTableName="alfian_penjualan" msprop:Generator_RowChangedName="alfian_penjualanRowChanged" msprop:Generator_RowEvArgName="alfian_penjualanRowChangeEvent" msprop:Generator_RowClassName="alfian_penjualanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="alfian_tgl" msprop:Generator_ColumnVarNameInTable="columnalfian_tgl" msprop:Generator_ColumnPropNameInRow="alfian_tgl" msprop:Generator_ColumnPropNameInTable="alfian_tglColumn" msprop:Generator_UserColumnName="alfian_tgl" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="alfian_subtotal" msprop:Generator_ColumnVarNameInTable="columnalfian_subtotal" msprop:Generator_ColumnPropNameInRow="alfian_subtotal" msprop:Generator_ColumnPropNameInTable="alfian_subtotalColumn" msprop:Generator_UserColumnName="alfian_subtotal" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

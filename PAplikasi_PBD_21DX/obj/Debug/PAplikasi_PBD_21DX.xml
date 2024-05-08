@@ -1,0 +1,681 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PAplikasi_PBD_21DX
+</name>
+</assembly>
+<members>
+<member name="T:PAplikasi_PBD_21DX.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PAplikasi_PBD_21DX.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PAplikasi_PBD_21DX.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PAplikasi_PBD_21DX.My.Resources.Resources.Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet.alfian_barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet.alfian_barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet.alfian_barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.alfian_barangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1.alfian_barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1.alfian_barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1.alfian_barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.alfian_barangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2.alfian_pegawaiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2.alfian_pegawaiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2.alfian_pegawaiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.alfian_pegawaiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3.alfian_supplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3.alfian_supplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3.alfian_supplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.alfian_supplierTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4.alfian_pegawaiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4.alfian_pegawaiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4.alfian_pegawaiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.alfian_pegawaiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5.alfian_transaksiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5.alfian_transaksiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5.alfian_transaksiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.alfian_transaksiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6.alfian_penjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6.alfian_penjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6.alfian_penjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.alfian_penjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7.alfian_penjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7.alfian_penjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7.alfian_penjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.alfian_penjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8.alfian_loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8.alfian_loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8.alfian_loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.alfian_loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9.alfian_transaksiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9.alfian_transaksiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9.alfian_transaksiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.alfian_transaksiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.UpdateAll(PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PAplikasi_PBD_21DX.db_toko_pbd_if21dxDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
